@@ -1,4 +1,4 @@
-Batch Ether transfer utility
+Batch Ether Transfer Utility
 ============================
 
 Load addresses and ether amounts from a CSV file and transfer all in a single batch.
@@ -13,13 +13,12 @@ Usage
 
 .. code:: bash
 
-## fill in the config options according to your own environment
-mv config.sample.js config.js
+    ## fill in the config options according to your own environment
+    mv config.sample.js config.js
 
-npm install
+    npm install
 
-npm run process
-
+    npm run process
 
 
 Duplication detection is included.
