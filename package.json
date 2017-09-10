@@ -1,0 +1,12 @@
+{
+  "name": "ether-batch-transfer",
+  "version": "0.0.1",
+  "dependencies": {
+    "bignumber.js": "^4.0.4",
+    "fast-csv": "^2.4.0",
+    "web3": "^0.19.0"
+  },
+  "scripts": {
+    "process": "node run.js"
+  }
+}
