@@ -16,6 +16,7 @@ Start your parity node with the following command with do the trick:
 .. code:: bash
   parity --jsonrpc-apis eth,net,web3,personal
 
+
 Duplication detection works by loading a processed address list from file and check duplicates
 before sending. After each run, updated processed list will be saved to another file in case
 of exceptions caused data missing. You might want to config the processedListFile and the
