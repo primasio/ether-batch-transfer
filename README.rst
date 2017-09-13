@@ -14,7 +14,7 @@ The scripts utilized web3's personal API, for it to work you must enable it in y
 Start your parity node with the following command with do the trick:
 
 .. code:: bash
-  parity --jsonrpc-apis eth,net,web3,personal
+    parity --jsonrpc-apis eth,net,web3,personal
 
 
 Duplication detection works by loading a processed address list from file and check duplicates
